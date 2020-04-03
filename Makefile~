@@ -1,0 +1,6 @@
+install:
+	pip install pip==18.1
+	pip --version
+run:
+	bash -c "cat /etc/os-release"
+	bash -c "ls -latr"
